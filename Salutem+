@@ -1,2 +1,61 @@
-print("hello world")
+print(    )
+print("**")
+print("** Welcome to Salutem+ **")
+print("**")
+print(    )
 
+
+print("How many calories did you have today?")
+calories_intake = int(input())
+print("How many calories did you burn today?")
+calories_burned = int(input())
+
+total_calories = calories_intake - calories_burned
+
+if total_calories > 200:
+    print("You have eaten in a surplus for today with a total count of " + str(calories_intake - calories_burned) + " calories.")
+elif total_calories == 20:
+    print("You have eaten a good amount of calories for today.")
+else:
+    print("You have eaten in a deficit of calories for today with a total count of " + str(calories_intake - calories_burned) + " calories.")
+
+
+print(    )
+print("**")
+print(    )
+
+
+print("How much water did you drink today? (glasses)")
+water_drank = int(input())
+water_recommend = 7
+
+if (water_drank < water_recommend):
+    print("You haven't had enough water.")
+elif (water_drank == water_recommend):
+    print("You have had enough water.")
+else:
+    print("You have had too much water.")
+
+
+print(    )
+print("**")
+print(    )
+
+
+print("How many hours did you sleep last night? (hours)")
+hours_slept = int(input())
+hours_recommend = 8
+
+if (hours_slept < hours_recommend):
+    print("You haven't had enough sleep.")
+elif (hours_slept == hours_recommend):
+    print("You have had enough sleep.")
+else:
+    print("You have had too much sleep.")
+
+
+print(    )
+print("**")
+print("** Thank you for using Salutem+ *")
+print("**")
+print(    )
